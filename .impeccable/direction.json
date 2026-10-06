@@ -1,0 +1,122 @@
+{
+  "title": "Elyra — direção visual",
+  "question": "O brief já fixa paleta, tipografia e ordem das seções. Esta escolha define a gramática que veste esse mundo. Mantenha a direção sorteada, pegue uma alternativa ou re-sorteie.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Rótulo de Formulação",
+      "kicker": "THE ROLL",
+      "lineage": "Rótulos de botica contemporânea e fichas de formulação farmacêutica",
+      "thesis": "Cada tratamento, especialista e etapa é composto como um rótulo preciso: nome grande, linhas de especificação finas, nada decorativo.",
+      "palette": ["#F7F5F0", "#EEEAE2", "#163C35", "#B89565", "#17201D"],
+      "materials": ["papel off-white fosco", "filetes de 1px", "blocos de especificação tabulares", "madeira clara e pedra nas fotos"],
+      "viewport": "Esquerda: headline serifada enorme em 3 linhas com um bloco-rótulo de especificação (Nota 4,9 · 280 avaliações · Tecnologia digital) e os dois CTAs; direita: retrato vertical sangrado com etiqueta '+3.800 sorrisos transformados' colada como rótulo.",
+      "risk": "Se os rótulos ficarem pequenos e numerosos demais, vira catálogo frio em vez de cuidado.",
+      "raised": [
+        {"from": "challenger-papercut", "raise": "Profundidade só por sobreposição de planos chapados (foto, rótulo, faixa verde) — nunca sombra."},
+        {"from": "challenger-cutting-bench", "raise": "Estado é marca, não cor: etapas do processo e casos do antes/depois marcados por traço e numeração, não por pílulas coloridas."},
+        {"from": "challenger-japanese-density", "raise": "Coragem de densidade dentro dos rótulos: specs pequenas e cheias de dado real, contrastando com o respiro enorme ao redor."}
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "Ficha de Planejamento do Sorriso",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Digital Smile Design: guias de proporção, linhas de referência e cotas sobre a foto",
+      "thesis": "A precisão vira linguagem gráfica: linhas-guia, cotas em milímetros e anotações com linha de chamada atravessam fotos e títulos.",
+      "palette": ["#F7F5F0", "#163C35", "#B89565", "#68706D"],
+      "materials": ["linhas-guia douradas de 1px", "cotas e chamadas técnicas", "fotografia editorial", "mono tabular discreta"],
+      "viewport": "Headline à esquerda; retrato à direita com uma linha de sorriso e duas cotas desenhando-se sobre a foto na entrada.",
+      "risk": "Linhas técnicas em excesso puxam para o clínico/hospitalar que o brief proíbe."
+    },
+    {
+      "id": "challenger-daylight",
+      "label": "Corte de Luz",
+      "verdict": "competitive",
+      "lineage": "Cortes arquitetônicos com trajetória solar",
+      "thesis": "O site como um corte da clínica: uma faixa de luz quente atravessa as seções e pousa em cada ambiente ao rolar.",
+      "palette": ["#F7F5F0", "#17201D", "#B89565", "#163C35"],
+      "materials": ["parede caiada", "poché carvão", "faixa de sol dourada", "horários tabulares"],
+      "viewport": "Hero com a foto atravessada por um feixe de luz diagonal que se move no scroll; horário 08:12 anotado.",
+      "case": "Funde bem com 'arquitetura minimalista, iluminação indireta' do brief; perde em clareza do produto odontológico.",
+      "risk": "A luz vira efeito decorativo se não ancorar em ambientes reais da clínica."
+    },
+    {
+      "id": "challenger-papercut",
+      "label": "Recorte em camadas",
+      "verdict": "declined",
+      "lineage": "Wycinanki de Łowicz",
+      "palette": ["#163C35", "#B89565", "#F7F5F0"],
+      "materials": ["papel chapado em camadas"],
+      "thesis": "Profundidade por camadas recortadas, sem sombreamento.",
+      "viewport": "Roseta simétrica de camadas.",
+      "risk": "Folclórico, alheio ao público.",
+      "case": "Público não se identifica; clareza baixa.",
+      "kept": "Profundidade por sobreposição, nunca por sombra."
+    },
+    {
+      "id": "challenger-cutting-bench",
+      "label": "Bancada de corte",
+      "verdict": "declined",
+      "lineage": "Montagem de filme em moviola",
+      "palette": ["#E8652B", "#000000", "#FFFFFF"],
+      "materials": ["grão de filme", "perfuração"],
+      "thesis": "Etapas como fotogramas num trilho perfurado.",
+      "viewport": "Trilho perfurado em campo laranja.",
+      "risk": "Laranja dominante contradiz a paleta fixada.",
+      "case": "Contradiz paleta e tom; perde nos dois eixos.",
+      "kept": "Estado como marca, não como cor."
+    },
+    {
+      "id": "challenger-japanese-density",
+      "label": "Alta densidade japonesa",
+      "verdict": "declined",
+      "lineage": "Portais japoneses densos",
+      "palette": ["#FFFFFF", "#111111", "#D7261E"],
+      "materials": ["módulos com filete", "abas vermelhas"],
+      "thesis": "Mosaico denso de módulos pequenos.",
+      "viewport": "Grade lotada de módulos.",
+      "risk": "Mata o respiro exigido pelo brief.",
+      "case": "Oposto ao respiro editorial pedido.",
+      "kept": "Densidade corajosa dentro dos blocos de especificação."
+    },
+    {
+      "id": "challenger-telop",
+      "label": "Legendas de variedades",
+      "verdict": "declined",
+      "lineage": "Telop de TV japonesa",
+      "palette": ["#FFE500", "#E60012", "#FFFFFF"],
+      "materials": ["texto contornado"],
+      "thesis": "Legendas emocionais coloridas.",
+      "viewport": "Legendas inclinadas sobre vídeo.",
+      "risk": "Ruído total.",
+      "case": "Incompatível com confiança e sofisticação.",
+      "kept": "Escala tipográfica mapeada à intensidade (números grandes, rótulos pequenos)."
+    },
+    {
+      "id": "challenger-crt",
+      "label": "Arcade CRT",
+      "verdict": "declined",
+      "lineage": "Telas de fliperama",
+      "palette": ["#000000", "#F5C542", "#3CE0FF"],
+      "materials": ["pixel", "scanline"],
+      "thesis": "Grade de pixels com brilho de fósforo.",
+      "viewport": "Tela de jogo.",
+      "risk": "Sem relação com o público.",
+      "case": "Perde nos dois eixos.",
+      "kept": "Disciplina de grade estrita: nada fora da grade de 12 colunas."
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": false},
+  "canon": true,
+  "canonCard": {
+    "label": "O padrão da categoria",
+    "thesis": "Clínica premium executada com perfeição: hero com foto, faixa de números, cards de tratamentos, depoimentos.",
+    "palette": ["#F7F5F0", "#163C35", "#B89565"],
+    "materials": ["grade limpa", "fotografia de produto"],
+    "viewport": "O arranjo que o visitante espera, com acabamento máximo.",
+    "risk": "Indistinguível de outras clínicas premium."
+  },
+  "steer": true
+}
