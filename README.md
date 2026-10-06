@@ -38,7 +38,8 @@ Abra http://localhost:4630.
 - Resultados (Atual / Planejado): a mesma foto, sem retoque, com o planejamento desenhado em SVG por cima (`.plan__case` em index.html). As coordenadas são ajustadas a cada foto; ao trocar a imagem de um caso, redesenhe a camada. `ba-3.webp` é um recorte paisagem (y 440–1460) do original 1400×2100. Imagens ilustrativas, com aviso dentro do quadro.
 - Formulário: o envio é simulado no front-end, sem backend.
 - `robots: noindex`: retirar ao publicar como site real.
-- Domínio fictício `elyraodontologia.com.br` em `canonical`, `og:url` e `og:image` (absoluta): trocar pelo domínio real no deploy, senão a prévia de compartilhamento não carrega a imagem.
+- Publicado em https://elyra-odontologia.vercel.app (repo privado DevX4N/elyra-odontologia; push em `main` gera deploy). `canonical`, `og:url`, `og:image` e a imagem do JSON-LD apontam para esse domínio: trocar pelo domínio real da clínica quando houver. O e-mail `contato@elyraodontologia.com.br` continua fictício.
+- Sem indexação: `meta robots`, `robots.txt` e cabeçalho `X-Robots-Tag: noindex, nofollow` (vercel.json).
 - Crédito "Desenvolvido por AJ Solutions Tech" está sem link (não há URL da agência); adicionar quando existir.
 - Promessas do CTA ("O que acontece depois": retorno no período escolhido, avaliação no melhor horário, planejamento e orçamento por escrito sem compromisso): confirmar com a clínica antes de publicar.
 
